@@ -1,7 +1,7 @@
 <div align="center">
   <img src="images/Decbrew logo.png" alt="Decbrew icon">
   <h1>Decbrew</h1>
-  <p>The Missing Package Manager For Chrome OS</p>
+  <p>The needed Package Manager For Chrome OS</p>
 </div>
 <p>contact me here at <a href="http://malto:Declan.pangburn@icloud.com">Declan.pangburn@icloud.com</a></p>
 ## Chat With Us
@@ -29,6 +29,8 @@ You will need a Chromebook with developer mode enabled. To do so, select your de
 | armv7l       | Yes        |
 | aarch64      | Yes\*\*    |
 
+to enable Developer Mode, turn off your chromebook, hold esc + refresh while taping the power button (tap the power button once) release all keys when you get to the chromeos missing or dameged screen (don't worry, chromeos is not affected) press ctrl + d, and confirm to turn off verified boot. `THIS WILL ERACE ALL CURRENT DATA` 
+
 \* _We can only provide limited support for i686 since Google has discontinued support. Although we can no longer support GUI apps, we will try to continue to support CLI programs._
 
 \*\* _We currently only provide armv7l packages even if your chromebook has an aarch64 userspace. For more details, see issue [#8044](https://github.com/chromebrew/chromebrew/issues/8044)._
@@ -36,12 +38,12 @@ You will need a Chromebook with developer mode enabled. To do so, select your de
 ## Installation
 
 > [!IMPORTANT]
-> The beta, dev, and Canary channels are ***not*** supported and should ***not*** be used with Chromebrew. Failure to take notice of this warning will cause major issues with your Chromebrew installation.
+> The beta, dev, and Canary channels are `***not*** supported and should ***not*** be used with Decbrew.` `Failure to take notice of this warning will cause `major` issues with your Chromebrew` installation.
 >
 > See issue [#2890](https://github.com/chromebrew/chromebrew/issues/2890) and the [FAQ](https://github.com/chromebrew/chromebrew/wiki/FAQ) for more details.
 
 > [!WARNING]
-> On ChromeOS M117+, the Chromebrew installer will not work in `crosh` anymore due to the security changes introduced in ChromeOS M117.
+> On ChromeOS M117+, the Decbrew installer will not work in `crosh` anymore due to the security changes introduced in `ChromeOS M117`.
 
 Open a VT-2 terminal session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>-></kbd> and login with the `chronos` or `root` user and password if set [above](#set_passwd). *(if you are unable to do this, please have a second look at the prerequisites and make sure your Chromebook is in developer mode)*
 
