@@ -62,12 +62,12 @@ Also please check existing [issues](https://github.com/chromebrew/chromebrew/iss
 ```text
 crew <command> <package1> [<package2> ...]
 ```
-you can install node with this command after inst
+you can install node with this command after installing Decbrew
 ```bash
 crew install node
 ```
 
-Where available commands are:
+Where available commands are after installing Decbrew:
 ```crew
 
 | Command             | Description |
