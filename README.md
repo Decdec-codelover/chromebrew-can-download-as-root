@@ -3,6 +3,7 @@
   <h1>Decbrew</h1>
   <p>The Missing Package Manager For Chrome OS</p>
 </div>
+contact me here at [malto:Declan.pangburn@icloud.com](malto:Declan.pangburn@icloud.com]()
 
 ## Chat With Us
 
