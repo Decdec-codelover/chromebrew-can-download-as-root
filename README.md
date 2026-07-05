@@ -11,7 +11,7 @@
 
 ## Overview
 
-Chromebooks with ChromeOS run a Linux kernel. The only missing pieces to use them as full-featured Linux distro were gcc and make with their dependencies. Well, these pieces aren't missing anymore. Say hello to Chromebrew!
+Chromebooks with ChromeOS run a Linux kernel. The only missing pieces to use them as full-featured Linux distro were gcc and make with their dependencies. Well, these pieces aren't missing anymore. Say hello to Decbrew!
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ to enable Developer Mode, turn off your chromebook, hold esc + refresh while tap
 ## Installation
 
 > [!IMPORTANT]
-> The beta, dev, and Canary channels are `***not*** supported and should ***not*** be used with Decbrew.` `Failure to take notice of this warning will cause `major` issues with your Chromebrew` installation.
+> The beta, dev, and Canary channels are `***not*** supported and should ***not*** be used with Decbrew. Failure to take notice of this warning will cause `major` issues with your Chromebrew` installation.
 >
 > See issue [#2890](https://github.com/chromebrew/chromebrew/issues/2890) and the [FAQ](https://github.com/chromebrew/chromebrew/wiki/FAQ) for more details.
 
@@ -47,7 +47,7 @@ to enable Developer Mode, turn off your chromebook, hold esc + refresh while tap
 
 Open a VT-2 terminal session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>-></kbd> and login with the `chronos` or `root` user and password if set [above](#set_passwd). *(if you are unable to do this, please have a second look at the prerequisites and make sure your Chromebook is in developer mode)*
 
-Then run the installation script below:
+Then run the installation script below as `chronos` or `root`:
 
 ```bash
 bash <(curl -L git.io/vddgY) && . ~/.bashrc
@@ -102,18 +102,11 @@ Where available commands are after installing Decbrew:
 
 Available packages are listed in the [packages directory](https://github.com/chromebrew/chromebrew/tree/master/packages).
 
-Chromebrew will wipe its `BREW_DIR` (`/usr/local/tmp/crew` by default) after installation unless you pass `-k` or `--keep` when running `crew install`.
+Decbrew will wipe its `BREW_DIR` (`/usr/local/tmp/crew` by default) after installation unless you pass `-k` or `--keep` when running `crew install`.
 
 ```text
 crew install --keep [...]
 ```
-
-## License
-
-Copyright 2013-2025 Michal Siwek and [all the awesome contributors](https://github.com/chromebrew/chromebrew/graphs/contributors).
-
-This project including all of its source files is released under the terms of [GNU General Public License (version 3 or later)](http://www.gnu.org/licenses/gpl.txt). This project embeds [docopt.rb](https://github.com/docopt/docopt.rb) at lib/docopt.rb. We retain its [MIT license](lib/docopt.LICENSE).
-
 <div>
   <a rel="license-software" href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="GNU General Public License" src="https://www.gnu.org/graphics/gplv3-127x51.png" height="31" /></a>
   <img src="about:blank" width="15px"> <!-- acting a space between two images -->
