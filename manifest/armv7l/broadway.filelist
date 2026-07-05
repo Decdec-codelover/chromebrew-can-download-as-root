@@ -1,0 +1,4 @@
+/usr/local/bin/startbroadway
+/usr/local/bin/stopbroadway
+/usr/local/etc/bash.d/10-broadway
+/usr/local/etc/env.d/broadway.env
