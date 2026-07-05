@@ -1,6 +1,6 @@
 <div align="center">
   <img src="images/Decbrew logo.png" alt="Decbrew icon">
-  <h1>Chromebrew</h1>
+  <h1>Decbrew</h1>
   <p>The Missing Package Manager For Chrome OS</p>
 </div>
 
