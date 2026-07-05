@@ -4,10 +4,6 @@
   <p>The needed Package Manager For Chrome OS</p>
 </div>
 <p>contact me here at <a href="http://malto:Declan.pangburn@icloud.com">Declan.pangburn@icloud.com</a></p>
-## Chat With Us
-
-> [!NOTE]
-> Discord is not currently syncing messages with Slack
 
 ## Overview
 
@@ -55,7 +51,7 @@ bash <(curl -L git.io/vddgY) && . ~/.bashrc
 
 ## Help
 
-Please check out the [wiki](https://github.com/chromebrew/chromebrew/wiki) to find out more information about Chromebrew including helpful tips, resource links and frequently asked questions.
+Please check out the [wiki](https://github.com/chromebrew/chromebrew/wiki) to find out more information about Decbrew including helpful tips, resource links and frequently asked questions.
 
 Also please check existing [issues](https://github.com/chromebrew/chromebrew/issues) before submitting a new one.
 
@@ -95,7 +91,7 @@ Where available commands are after installing Decbrew:
 | upgrade             | update all or specific package(s) |
 | upload              | upload binaries for all or specific package(s) |
 | upstream            | check if an upstream version is available for package(s) |
-| version             | check for the Chromebrew version, or if a package is specified, the package version |
+| version             | check for the Decbrew version, or if a package is specified, the package version |
 | whatdepends         | search for package(s) that depend on the provided package |
 | whatprovides        | regex search for package(s) that contains file(s) |
 ```
@@ -107,8 +103,4 @@ Decbrew will wipe its `BREW_DIR` (`/usr/local/tmp/crew` by default) after instal
 ```text
 crew install --keep [...]
 ```
-<div>
-  <a rel="license-software" href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img alt="GNU General Public License" src="https://www.gnu.org/graphics/gplv3-127x51.png" height="31" /></a>
-  <img src="about:blank" width="15px"> <!-- acting a space between two images -->
-  <a rel="license-docopt" href="https://mit-license.org/"><img alt="MIT License" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" height="31" /></a>
-</div>
+
