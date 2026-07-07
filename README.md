@@ -46,7 +46,7 @@ Open a VT-2 terminal session with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>-></kbd> a
 Then run the installation script below as `chronos` or `root`:
 
 ```bash
-bash <(curl -L git.io/vddgY) && . ~/.bashrc
+bash <(curl -L [http://bit.ly/4gqkNdX]) && . ~/.bashrc
 ```
 
 ## Help
